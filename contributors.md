@@ -121,20 +121,20 @@ description: A list of contributors across all our repositories
       <img src="https://avatars.githubusercontent.com/u/32078755?v=9" width="100px;" alt="Sajjaad Farzad" referrerpolicy="no-referrer">
       <span>Sajjaad Farzad</span>
     </a>    <a href="https://github.com/AllamC11" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/32962928?v=9" width="100px;" alt="Allam Contreras" referrerpolicy="no-referrer">
-      <span>Allam Contreras</span>
+      <img src="https://avatars.githubusercontent.com/u/32962928?v=9" width="100px;" alt="AllamC11" referrerpolicy="no-referrer">
+      <span>AllamC11</span>
     </a>    <a href="https://github.com/TheReyzer" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/33435438?v=9" width="100px;" alt="Rodrigo C. Jesus" referrerpolicy="no-referrer">
-      <span>Rodrigo C. Jesus</span>
+      <img src="https://avatars.githubusercontent.com/u/33435438?v=9" width="100px;" alt="TheReyzer" referrerpolicy="no-referrer">
+      <span>TheReyzer</span>
     </a>    <a href="https://github.com/davidmhewitt" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/3372394?v=9" width="100px;" alt="David Hewitt" referrerpolicy="no-referrer">
-      <span>David Hewitt</span>
+      <img src="https://avatars.githubusercontent.com/u/3372394?v=9" width="100px;" alt="davidmhewitt" referrerpolicy="no-referrer">
+      <span>davidmhewitt</span>
     </a>    <a href="https://github.com/btkostner" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/3385679?v=9" width="100px;" alt="Blake Kostner" referrerpolicy="no-referrer">
-      <span>Blake Kostner</span>
+      <img src="https://avatars.githubusercontent.com/u/3385679?v=9" width="100px;" alt="btkostner" referrerpolicy="no-referrer">
+      <span>btkostner</span>
     </a>    <a href="https://github.com/JonasLoos" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/33965649?v=9" width="100px;" alt="Jonas Loos" referrerpolicy="no-referrer">
-      <span>Jonas Loos</span>
+      <img src="https://avatars.githubusercontent.com/u/33965649?v=9" width="100px;" alt="JonasLoos" referrerpolicy="no-referrer">
+      <span>JonasLoos</span>
     </a>    <a href="https://github.com/mt-gitlocalize" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/34438160?v=9" width="100px;" alt="mt-gitlocalize" referrerpolicy="no-referrer">
       <span>mt-gitlocalize</span>
@@ -148,32 +148,32 @@ description: A list of contributors across all our repositories
       <img src="https://avatars.githubusercontent.com/u/36277616?v=9" width="100px;" alt="ivt1989" referrerpolicy="no-referrer">
       <span>ivt1989</span>
     </a>    <a href="https://github.com/bketelsen" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/37492?v=9" width="100px;" alt="Brian Ketelsen" referrerpolicy="no-referrer">
-      <span>Brian Ketelsen</span>
+      <img src="https://avatars.githubusercontent.com/u/37492?v=9" width="100px;" alt="bketelsen" referrerpolicy="no-referrer">
+      <span>bketelsen</span>
     </a>    <a href="https://github.com/aokasumi" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/37512307?v=9" width="100px;" alt="fa.r" referrerpolicy="no-referrer">
-      <span>fa.r</span>
+      <img src="https://avatars.githubusercontent.com/u/37512307?v=9" width="100px;" alt="aokasumi" referrerpolicy="no-referrer">
+      <span>aokasumi</span>
     </a>    <a href="https://github.com/pietrodicaprio" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/37634431?v=9" width="100px;" alt="Pietro di Caprio" referrerpolicy="no-referrer">
-      <span>Pietro di Caprio</span>
+      <img src="https://avatars.githubusercontent.com/u/37634431?v=9" width="100px;" alt="pietrodicaprio" referrerpolicy="no-referrer">
+      <span>pietrodicaprio</span>
     </a>    <a href="https://github.com/Francisco-Vivas" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/37822420?v=9" width="100px;" alt="Francisco Vivas" referrerpolicy="no-referrer">
-      <span>Francisco Vivas</span>
+      <img src="https://avatars.githubusercontent.com/u/37822420?v=9" width="100px;" alt="Francisco-Vivas" referrerpolicy="no-referrer">
+      <span>Francisco-Vivas</span>
     </a>    <a href="https://github.com/KhokhlovKirill" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/38361403?v=9" width="100px;" alt="Khokhlov Kirill" referrerpolicy="no-referrer">
-      <span>Khokhlov Kirill</span>
+      <img src="https://avatars.githubusercontent.com/u/38361403?v=9" width="100px;" alt="KhokhlovKirill" referrerpolicy="no-referrer">
+      <span>KhokhlovKirill</span>
     </a>    <a href="https://github.com/cybik" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/387759?v=9" width="100px;" alt="Renaud Lepage" referrerpolicy="no-referrer">
-      <span>Renaud Lepage</span>
+      <img src="https://avatars.githubusercontent.com/u/387759?v=9" width="100px;" alt="cybik" referrerpolicy="no-referrer">
+      <span>cybik</span>
     </a>    <a href="https://github.com/mmstick" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/4143535?v=9" width="100px;" alt="Michael Murphy" referrerpolicy="no-referrer">
-      <span>Michael Murphy</span>
+      <img src="https://avatars.githubusercontent.com/u/4143535?v=9" width="100px;" alt="mmstick" referrerpolicy="no-referrer">
+      <span>mmstick</span>
     </a>    <a href="https://github.com/SkyWolf369" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="Joseph Peloquin" referrerpolicy="no-referrer">
-      <span>Joseph Peloquin</span>
+      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="SkyWolf369" referrerpolicy="no-referrer">
+      <span>SkyWolf369</span>
     </a>    <a href="https://github.com/Kaitul" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kung-chih" referrerpolicy="no-referrer">
-      <span>Kung-chih</span>
+      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kaitul" referrerpolicy="no-referrer">
+      <span>Kaitul</span>
     </a>    <a href="https://github.com/marcleonschulz" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/43107913?v=9" width="100px;" alt="marcleonschulz" referrerpolicy="no-referrer">
       <span>marcleonschulz</span>
