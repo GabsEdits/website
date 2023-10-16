@@ -178,11 +178,11 @@ description: A list of contributors across all our repositories
       <img src="https://avatars.githubusercontent.com/u/4143535?v=9" width="100px;" alt="Michael Murphy" referrerpolicy="no-referrer">
       <span>Michael Murphy</span>
     </a>    <a href="https://github.com/SkyWolf369" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="SkyWolf369" referrerpolicy="no-referrer">
-      <span>SkyWolf369</span>
+      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="Joseph Peloquin" referrerpolicy="no-referrer">
+      <span>Joseph Peloquin</span>
     </a>    <a href="https://github.com/Kaitul" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kaitul" referrerpolicy="no-referrer">
-      <span>Kaitul</span>
+      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kung-chih" referrerpolicy="no-referrer">
+      <span>Kung-chih</span>
     </a>    <a href="https://github.com/marcleonschulz" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/43107913?v=9" width="100px;" alt="marcleonschulz" referrerpolicy="no-referrer">
       <span>marcleonschulz</span>
