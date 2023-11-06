@@ -124,8 +124,8 @@ description: A list of contributors across all our repositories
       <img src="https://avatars.githubusercontent.com/u/31544054?v=9" width="100px;" alt="Zhiyuan Li" referrerpolicy="no-referrer">
       <span>Zhiyuan Li</span>
     </a>    <a href="https://github.com/theMackabu" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/32078755?v=9" width="100px;" alt="Sajjaad Farzad" referrerpolicy="no-referrer">
-      <span>Sajjaad Farzad</span>
+      <img src="https://avatars.githubusercontent.com/u/32078755?v=9" width="100px;" alt="theMackabu" referrerpolicy="no-referrer">
+      <span>theMackabu</span>
     </a>    <a href="https://github.com/AllamC11" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/32962928?v=9" width="100px;" alt="Allam Contreras" referrerpolicy="no-referrer">
       <span>Allam Contreras</span>
@@ -172,20 +172,20 @@ description: A list of contributors across all our repositories
       <img src="https://avatars.githubusercontent.com/u/38361403?v=9" width="100px;" alt="Khokhlov Kirill" referrerpolicy="no-referrer">
       <span>Khokhlov Kirill</span>
     </a>    <a href="https://github.com/cybik" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/387759?v=9" width="100px;" alt="Renaud Lepage" referrerpolicy="no-referrer">
-      <span>Renaud Lepage</span>
+      <img src="https://avatars.githubusercontent.com/u/387759?v=9" width="100px;" alt="cybik" referrerpolicy="no-referrer">
+      <span>cybik</span>
     </a>    <a href="https://github.com/mmstick" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/4143535?v=9" width="100px;" alt="Michael Murphy" referrerpolicy="no-referrer">
-      <span>Michael Murphy</span>
+      <img src="https://avatars.githubusercontent.com/u/4143535?v=9" width="100px;" alt="mmstick" referrerpolicy="no-referrer">
+      <span>mmstick</span>
     </a>    <a href="https://github.com/SkyWolf369" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="Joseph Peloquin" referrerpolicy="no-referrer">
-      <span>Joseph Peloquin</span>
+      <img src="https://avatars.githubusercontent.com/u/41835930?v=9" width="100px;" alt="SkyWolf369" referrerpolicy="no-referrer">
+      <span>SkyWolf369</span>
     </a>    <a href="https://github.com/Gabrielbsb21" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/41963787?v=9" width="100px;" alt="Gabriel Teixeira da Silva" referrerpolicy="no-referrer">
-      <span>Gabriel Teixeira da Silva</span>
+      <img src="https://avatars.githubusercontent.com/u/41963787?v=9" width="100px;" alt="Gabrielbsb21" referrerpolicy="no-referrer">
+      <span>Gabrielbsb21</span>
     </a>    <a href="https://github.com/Kaitul" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kung-chih" referrerpolicy="no-referrer">
-      <span>Kung-chih</span>
+      <img src="https://avatars.githubusercontent.com/u/42119227?v=9" width="100px;" alt="Kaitul" referrerpolicy="no-referrer">
+      <span>Kaitul</span>
     </a>    <a href="https://github.com/marcleonschulz" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/43107913?v=9" width="100px;" alt="marcleonschulz" referrerpolicy="no-referrer">
       <span>marcleonschulz</span>
@@ -342,9 +342,9 @@ description: A list of contributors across all our repositories
     </a>    <a href="https://github.com/jackpot51" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/7741236?v=9" width="100px;" alt="jackpot51" referrerpolicy="no-referrer">
       <span>jackpot51</span>
-    </a>    <a href="https://github.com/12subnet" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/78281477?v=9" width="100px;" alt="12subnet" referrerpolicy="no-referrer">
-      <span>12subnet</span>
+    </a>    <a href="https://github.com/kyee-rs" target="_blank">
+      <img src="https://avatars.githubusercontent.com/u/78281477?v=9" width="100px;" alt="kyee-rs" referrerpolicy="no-referrer">
+      <span>kyee-rs</span>
     </a>    <a href="https://github.com/alinpr18" target="_blank">
       <img src="https://avatars.githubusercontent.com/u/79379711?v=9" width="100px;" alt="alinpr18" referrerpolicy="no-referrer">
       <span>alinpr18</span>
