@@ -1,0 +1,16 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        
+        .readme-title h1 {
+          font-family: 'Pacifico'
+        }
+			</style>
+			<div class="readme-title">
+				<h1>Website</h1>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
