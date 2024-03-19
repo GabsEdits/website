@@ -14,11 +14,11 @@
             <div class="page-content anim--fadeIn">
                 <div class="text text--rich" v-html="parsedHTML" @click="handleClick"></div>
             </div>
-            <div class="card card--hz card--type-adv card--type-adv--hz card--type-newsletter">
+            <div class="card card--hz card--type-adv card--type-adv--hz card--type-funnyletter">
                 <div class="card-header">
                     <h4>Don't miss the news</h4>
                     <h2>Subscribe to the Newsletter</h2>
-                    <div class="btn btn--primary" @click="isMailChimpOpen = true">
+                    <div class="btn btn--primary" @click="isNotMailNotChimpOpen = true">
                         <span class="mdi material-icons">email</span>
                         <span>Subscribe Now</span>
                     </div>
@@ -26,7 +26,7 @@
                 <div class="card-content">
                     <div class="flexList">
                         <div class="card-image">
-                            <img src="/assets/images/components/newsletter.svg" alt="Subscribe to the Newsletter" />
+                            <img src="/assets/images/components/funnyletter.svg" alt="Subscribe to the Newsletter" />
                         </div>
                     </div>
                 </div>
@@ -44,10 +44,10 @@
                             <div class="toc">
                                 <ul class="toc-list">
                                     <li v-for="(heading, index) in tableOfContents" :key="index" class="toc-item">
-                                        <a :href="`#${heading.anchor}`" :class="`toc-item-level-${heading.level}`"
-                                            @click="handleTocItemClick">
+                                        <span :class="`clickable toc-item-level-${heading.level}`"
+                                            @click="handleTocItemClick(heading.anchor)" :hash="heading.anchor">
                                             {{ heading.title }}
-                                        </a>
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -79,7 +79,7 @@
     <share-modal :isOpen="shareModalOpen" @close="shareModalOpen = false" />
     <image-showcase :isOpen="imageShowcaseOpen" :articleImages="articleImages" :currentImageIndex="currentImageIndex"
         @close="closeImageShowcase" @navigate="navigateImage" />
-    <mail-chimp :is-open="isMailChimpOpen" @close="closeMailChimp" />
+    <notmail-not-chimp :is-open="isNotMailNotChimpOpen" @close="closeNotMailNotChimp" />
 </template>
   
 <script lang="ts">
@@ -100,12 +100,26 @@ export default defineComponent({
             articleImages: [] as string[],
             currentImageIndex: 0,
             panelTocOpen: false,
-            isMailChimpOpen: false,
+            isNotMailNotChimpOpen: false,
+            articleLoaded: false,
         };
     },
     methods: {
-        handleTocItemClick() {
+        handleTocItemClick(anchor: string) {
+            const currentPath = this.$router.currentRoute.value.path;
+            const newHash = `#${anchor}`;
+            const newPath = `${currentPath}${newHash}`;
+            window.history.replaceState({}, document.title, newPath);
+            this.scrollToAnchor(anchor);
             this.panelTocOpen = false;
+        },
+        scrollToAnchor(anchor: string) {
+            const element = document.getElementById(anchor);
+            console.log(element);
+            if (element) {
+                window.scrollTo(0, 0);
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         },
         printArticle() {
             window.print();
@@ -118,8 +132,8 @@ export default defineComponent({
         closeImageShowcase() {
             this.imageShowcaseOpen = false;
         },
-        closeMailChimp() {
-            this.isMailChimpOpen = false;
+        closeNotMailNotChimp() {
+            this.isNotMailNotChimpOpen = false;
         },
         navigateImage(index: number) {
             this.currentImageIndex = index;
@@ -153,6 +167,7 @@ export default defineComponent({
         try {
             this.article = await loadArticle(date as string, slug as string);
             this.parsedHTML = this.article?.content || '';
+            this.articleLoaded = true;
             useHead({
                 title: `${this.article!.title} - ${document.title}`,
                 meta: [
@@ -219,13 +234,17 @@ export default defineComponent({
             const headingRegex = /<h([1-6])[^>]*>([^<]+)<\/h[1-6]>/g;
             const matches = [];
             let match;
+
             while ((match = headingRegex.exec(this.article.content))) {
+                const title = decodeURIComponent(match[2].replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
+                const anchor = title.replace(/['",]/g, '').replace(/\s+/g, '-').toLowerCase();
                 matches.push({
-                    anchor: match[2].toLowerCase().replace(/\s+/g, '-'),
-                    title: match[2],
+                    anchor: anchor,
+                    title: title,
                     level: parseInt(match[1]),
                 });
             }
+
             return matches;
         },
         readingTime() {
@@ -239,6 +258,21 @@ export default defineComponent({
             const seconds = Math.round((wordCount / readingSpeed - minutes) * 60);
 
             return `${minutes}m ${seconds}s`;
+        },
+    },
+    watch: {
+        $route() {
+            this.articleLoaded = false;
+        },
+        articleLoaded() {
+            if (this.articleLoaded) {
+                this.$nextTick(() => {
+                    const { hash } = window.location;
+                    if (hash) {
+                        this.scrollToAnchor(hash.replace('#', ''));
+                    }
+                });
+            }
         },
     },
 });

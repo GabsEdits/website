@@ -1,5 +1,5 @@
 <template>
-    <div class="topBar">
+    <header class="topBar">
         <div class="topBar-wrapper container">
             <div class="topBar-logo">
                 <router-link :to="{ name: 'home' }">
@@ -45,22 +45,24 @@
                 </div>
             </div>
             <div class="overlay" v-if="isMenuToggled" @click="toggleMenu"></div>
-            <ul class="topBar-navigation" :class="{ active: isMenuToggled }">
-                <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
-                <li><router-link :to="{ name: 'help' }">Help</router-link></li>
-                <li><router-link :to="{ name: 'get-involved' }">Get Involved</router-link></li>
-                <li><router-link :to="{ name: 'download' }">Download</router-link></li>
-            </ul>
-            <div class="topBar-hamburger">
-                <div class="topBar-hamburger-wrapper" :class="{ active: isMenuToggled }" @click="toggleMenu">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+            <nav>
+                <ul class="topBar-navigation" :class="{ active: isMenuToggled }">
+                    <li><router-link :to="{ name: 'blog' }">Blog</router-link></li>
+                    <li><router-link :to="{ name: 'help' }">Help</router-link></li>
+                    <li><router-link :to="{ name: 'get-involved' }">Get Involved</router-link></li>
+                    <li><router-link :to="{ name: 'download' }">Download</router-link></li>
+                </ul>
+            </nav>
+            <button class="topBar-hamburger topBar-hamburger--collapse topBar-hamburger--squeeze"
+                :class="{ 'is-active': isMenuToggled }" @click="toggleMenu" type="button">
+                <span class="topBar-hamburger-box">
+                    <span class="topBar-hamburger-inner"></span>
+                </span>
+            </button>
         </div>
-    </div>
+    </header>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from "vue";
 import { useRoute } from "vue-router";

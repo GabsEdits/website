@@ -16,6 +16,7 @@
 
 .text.text--spaced p {
     margin: 0 0 50px 0;
+    line-height: 1.44;
 }
 
 .text--rich p,
@@ -123,6 +124,16 @@
 
 .text--rich ul li p {
     margin: 0 0 0 0;
+}
+
+.text--rich b,
+.text--rich strong {
+    font-weight: 700;
+}
+
+.text--rich em,
+.text--rich i {
+    font-style: italic;
 }
 
 .text small {

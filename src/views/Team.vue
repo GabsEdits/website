@@ -61,7 +61,7 @@ export default defineComponent({
                 },
                 {
                     name: 'Mateus B. Melchiades',
-                    description: 'Software Engineer and Core Developer',
+                    description: 'Software Engineer, Core Developer and Contributors Leader',
                     lit: true,
                     image: '/assets/images/pics/matbme.jpeg',
                     links: {
@@ -90,7 +90,7 @@ export default defineComponent({
                         githubUsername: 'TheEvilSkeleton',
                         twitterUsername: 'JaakunaGaikotsu',
                         mastodonLink: 'https://social.treehouse.systems/@TheEvilSkeleton',
-                        website: 'https://theevilskeleton.gitlab.io/',
+                        website: 'https://tesk.page/',
                     },
                 },
                 {
@@ -118,19 +118,9 @@ export default defineComponent({
                     image: '/assets/images/pics/kbdharun.jpeg',
                     links: {
                         githubUsername: 'kbdharun',
-                        twitterUsername: 'BlogsKbdk',
+                        twitterUsername: 'kbdharun',
                         mastodonLink: 'https://mastodon.social/@kbdharunkrishna',
                         website: 'https://kbdharun.dev/',
-                    },
-                },
-                {
-                    name: 'Kramo',
-                    description: 'UI Designer and Illustrator',
-                    image: '/assets/images/pics/kra-mo.jpeg',
-                    links: {
-                        githubUsername: 'kra-mo',
-                        mastodonLink: 'https://fosstodon.org/@kramo',
-                        website: 'https://kramo.hu/',
                     },
                 },
                 {
@@ -141,6 +131,14 @@ export default defineComponent({
                         githubUsername: 'orowith2os',
                         mastodonLink: 'https://tech.lgbt/@orowith2os',
                         website: 'https://orowith2os.gitlab.io/',
+                    },
+                },
+                {
+                    name: 'Tau',
+                    description: 'Bugfixes and User Support',
+                    image: '/assets/images/pics/taukakao.jpg',
+                    links: {
+                        githubUsername: 'taukakao',
                     },
                 },
             ];
