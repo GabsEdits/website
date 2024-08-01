@@ -61,6 +61,10 @@
                             <span class="mdi material-icons">email</span>
                             <span>Subscribe Now</span>
                         </div>
+                        <a class="btn btn--primary" href="//vanillaos.org/feed.xml">
+                            <span class="mdi material-icons">newspaper</span>
+                            <span>Subscribe via the RSS Feed</span>
+                        </a>
                     </div>
                     <div class="card-content">
                         <div class="flexList">
